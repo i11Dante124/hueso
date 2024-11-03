@@ -164,4 +164,9 @@ input[type="submit"]:hover {
         padding: 20px;
         display: inline-block;
     }
+    img {
+        box-shadow: rgb(154, 154, 154);
+        width: 150px;
+        border-radius: 20px;
+    }
 }
