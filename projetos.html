@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Projetos</title>
+</head>
+<body>
+    <h1>
+        Bem-vindo, <span id="usernameDisplay"></span>! <br>
+        No momento não tenho nenhum projeto Disponivel
+    </h1>
+    <audio src="audio/e-nal-di-nho.mp3" controls></audio>
+    <script>
+        // Recupera o nome do usuário do localStorage
+        const username = localStorage.getItem('username');
+        document.getElementById('usernameDisplay').textContent = username ? username : "Estranho"; // Se o usuário não estiver logado, exibe "Usuário"
+    </script>
+</body>
+</html>
